@@ -129,3 +129,41 @@ h5 {
     font-size: 15px;
     color: #a5a5a5;
 }
+@media (max-width: 1000px) and (min-width:450px) {
+    .card {
+        flex-direction: column;
+        max-width: 95%;
+        margin:0 40px ;
+    }
+    .card .frst-card,
+    .card .second-card {
+        width: 100%;
+    }
+    .second-card {
+        padding: 12px;
+    }
+    .card .second-card h3{
+        font-size: 15px;
+    }
+    .card .second-card p{
+        font-size: 12px;
+    }
+    .avatr .avatr-left h4{
+        font-size: 15px;
+       
+    }
+    .avatr .avatr-left h5{
+        font-size: 12px;
+    }
+    .social-icons{
+        padding: 5px 15px;
+        gap: 8px;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+    .social-icons span{
+        font-size: 12px;
+}
+}
